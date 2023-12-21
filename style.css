@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@300&display=swap");
+
+@font-face {
+  font-family: "MysticGate";
+  src: url(font/MysticGate-0WnMP.ttf);
+}
+
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1abc9c;
+}
+
+.navigasi {
+  width: 1600px;
+  height: 90px;
+  margin: auto;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.navigasi ul{
+  padding-top: 25px;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 50px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  letter-spacing: 1px;
+  background-color: #2c3e50;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: aliceblue;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "MysticGate";
+}
+
+nav ul li a:link {
+  color: aliceblue;
+}
+
+nav ul li a:hover {
+  color: #1abc9c;
+  font-family: "MysticGate";
+}
+
+nav ul li a:active {
+  color: aliceblue;
+}
+
+.isi1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  width: 1902px;
+  background-image: linear-gradient(
+      rgba(169, 151, 137, 0.6),
+      rgba(215, 214, 219, 0.33)
+    ),
+    url("img/img4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#selamatdatang {
+  font-family: "MysticGate";
+  color: #2c3e50;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 200px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 2px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+.img1 {
+  margin-left: 275px;
+  margin-bottom: 40px;
+}
+
+.deskripsi {
+  color: aliceblue;
+  font-family: "Poppins";
+  margin: -20px auto 0;
+  padding-top: 30px;
+  padding-bottom: 300px;
+  text-align: center;
+  font-size: 21px;
+}
+
+#saya {
+  font-family: "MysticGate";
+  color: #2c3e50;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 200px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+.isi2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 250px;
+  height: 50vh;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 150px;
+}
+
+.deskripsi2 {
+  list-style-type: none;
+  color: aliceblue;
+  font-family: "Poppins";
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.deskripsi2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.deskripsi2 ul li a {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.deskripsi2 ul li a:hover {
+  color: #2c3e50;
+  font-family: "Poppins";
+}
+
+.isi3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 100px;
+}
+
+#pendidikan {
+  font-family: "MysticGate";
+  color: #2c3e50;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 200px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+  padding-bottom: 20px;
+}
+
+iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+#ks,
+#if {
+  font-family: "MysticGate";
+  color: #2c3e50;
+  font-size: 45px;
+  text-align: center;
+  font-weight: 200px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+.isi4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 150px;
+}
+
+.deskripsi3 {
+  list-style-type: none;
+  color: aliceblue;
+  font-family: "Poppins";
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.deskripsi3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.deskripsi3 ul li a {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.deskripsi3 ul li a:hover {
+  color: #2c3e50;
+  font-family: "Poppins";
+}
+
+.isi5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 150px;
+}
+
+.deskripsi4 {
+  list-style-type: none;
+  color: aliceblue;
+  font-family: "Poppins";
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.deskripsi4 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.deskripsi4 ul li a {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+.deskripsi4 ul li a:hover {
+  color: #2c3e50;
+  font-family: "Poppins";
+}
+
+.footer {
+  background-color: #2c3e50;
+  line-height: 40px;
+  color: aliceblue;
+  text-align: center;
+  font-family: "MysticGate";
+  font-size: 20px;
+  letter-spacing: 1px;
+}
